@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+
+    android:layout_height="match_parent">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+       android:background="#EE101845"
+
+        android:layout_marginTop="1dp"
+        >
+
+        <TextView
+            android:id="@+id/txt1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:text="Add Note"
+            android:textColor="#D7E3D8"
+            android:textSize="26sp"
+            android:textStyle="bold" />
+
+    </RelativeLayout>
+
+
+    <EditText
+        android:id="@+id/dialogtitl"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="25sp"
+        android:hint="Enter Title"
+        android:layout_marginTop="15dp"
+        android:textColor="@color/black"
+
+        android:textSize="19sp"
+        android:textStyle="bold" />
+
+
+    <EditText
+        android:id="@+id/dialogcontnt"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="20sp"
+        android:layout_marginTop="15dp"
+        android:hint="Enter Content"
+        android:textColor="@color/black"
+        android:textSize="17sp"
+        android:textStyle="normal" />
+
+
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/dialogaddbtn"
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:background="@drawable/back"
+        android:text="ADD"
+        android:layout_marginTop="20sp"
+        android:textSize="25sp"
+        android:textColor="@color/white"
+        android:layout_marginHorizontal="25dp"
+        android:layout_marginBottom="8dp"
+        android:textStyle="bold"/>
+
+
+
+</LinearLayout>

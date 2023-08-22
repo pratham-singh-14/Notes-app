@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+android:gravity="center"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+
+    android:orientation="vertical">
+  <TextView
+                            android:id="@+id/empty"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:fontFamily="sans-serif-black"
+                            android:gravity="center"
+                            android:text="No Notes Available!"
+
+                            android:textColor="@color/notes"
+                            android:textSize="34dp"
+                            android:textStyle="bold" />
+
+                        <androidx.appcompat.widget.AppCompatButton
+                            android:id="@+id/btnadd"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+
+                            android:layout_below="@+id/empty"
+                            android:layout_marginTop="60dp"
+                            android:background="@drawable/back"
+                            android:paddingHorizontal="16dp"
+                            android:text="Create a new notes"
+                            android:textAllCaps="false"
+                            android:textColor="@color/white"
+                            android:textSize="20sp" />
+                </LinearLayout>
+
+
+
+
+
